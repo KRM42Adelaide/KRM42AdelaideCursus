@@ -3,7 +3,7 @@
 
 #include <stddef.h>
 
-char    *ft_strrchr(const char *str, int c)
+char    *ft_strrchr(const char *s, int c)
 {
   int		i;
 	char	*ptr;
