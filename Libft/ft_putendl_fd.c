@@ -1,13 +1,12 @@
-/*
-** LIBRARY: N/A
-** SYNOPSIS: output string to given file with newline
-**
-** DESCRIPTION:
-** 		Outputs the string ’s’ to the given file descriptor, followed by a
-**	newline.
-*/
+#include "libft.h
 
-#include "libft.h"
+/*
+LIBRARY: N/A
+SYNOPSIS: output string to given file with newline
+DESCRIPTION:
+Outputs the string ’s’ to the given file descriptor, followed by a
+newline.
+*/
 
 void	ft_putendl_fd(char *s, int fd)
 {
