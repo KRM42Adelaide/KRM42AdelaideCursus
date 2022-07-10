@@ -11,18 +11,18 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+
 /*
 ft_isalpha checks whether a given argument is an alphabet character
     If argument is an alphabet:     1 is returned
     If argument is not an alphabet: 0 is returned
-
 A single argument is passed on to the function as a CHARACTER 
 but is taken into the function as an INTEGER argument.
     -> (internally), the character is converted into the integer value 
         corresponding to its ASCII value when passed.
-
 Defined in the <ctype.h> header file.
 */
+    
 int ft_isalpha(int c)
 {
     if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
