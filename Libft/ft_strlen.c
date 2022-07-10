@@ -10,13 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
-#include <stddef.h>
+#include "libft.h"
+
 /*
-ft_strlen finds to number of characters in a string and returns 
-We use size_t because it will be big enough to contain 
-the size of the biggest object our system can handle */
-size_t ft_strlen(const char *s)
+ft_strlen finds to number of characters in a string and returns We use size_t 
+because it will be big enough to contain the size of the biggest object our 
+system can handle 
+*/
+
+size_t  ft_strlen(const char *s)
 {
     size_t i;
 
