@@ -10,7 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* strlcpy takes the full size of the buffer */
+/* strlcpy takes the full size of the buffer 
+The strlcpy() function copies up to size − 1 characters from the NUL-terminated 
+string src to dst, NUL-terminating the result.*/
 
 #include "libft.h"
 
