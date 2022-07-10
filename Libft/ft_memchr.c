@@ -1,4 +1,5 @@
-#include <stddef.h>
+#include "libft.h"
+
 /*
 ft_memchr 
     -> searches for the first occurence of the character 
@@ -6,6 +7,7 @@ ft_memchr
 
 This function returns a pointer to the matching byte or NULL
 */
+
 void    *ft_memchr(const void *s, int c, size_t n)
 {
     const char  *str;
