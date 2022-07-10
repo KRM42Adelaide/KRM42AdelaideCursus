@@ -1,12 +1,11 @@
-/*
-** LIBRARY: N/A
-** SYNOPSIS: output string to given file
-**
-** DESCRIPTION:
-** 		Outputs the string ’s’ to the given file descriptor.
-*/
-
 #include "libft.h"
+
+/*
+LIBRARY: N/A
+SYNOPSIS: output string to given file
+DESCRIPTION:
+Outputs the string ’s’ to the given file descriptor.
+*/
 
 void	ft_putstr_fd(char *s, int fd)
 {
