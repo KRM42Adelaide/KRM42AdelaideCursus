@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+//#include "libft.h"
 /*
 ft_isascii checks whether a given argument is an ascii character
     If argument is an ascii character:      1 is returned
