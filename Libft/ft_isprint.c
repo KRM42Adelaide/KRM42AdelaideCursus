@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include "libft.h"
 /*
 ft_isprint checks whether a given argument is a printable character
     If the argument is a printable character:       1 is returned
