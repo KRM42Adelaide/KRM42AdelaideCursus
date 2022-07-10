@@ -13,8 +13,8 @@
 #include "libft.h"
 
 /*
-The strlcpy() function copies up to size − 1 characters from the NUL-terminated 
-string src to dst, NUL-terminating the result.
+The strlcat() function appends the NUL-terminated string src to the end of dst. 
+It will append at most size − strlen(dst) − 1 bytes, NUL-terminating the result.
 */
 
 size_t  ft_strlcat(char * restrict dst, const char * restrict src, size_t dstsize)
