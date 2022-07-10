@@ -10,8 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*memcpy copies n characters from memmory are src to memory area dest*/
 #include <stddef.h>
+
+/*
+memcpy copies n characters from memmory are src to memory area dest
+*/
 
 void    *ft_memcpy(void *restrict dst, const void *restrict src, size_t n)
 {
