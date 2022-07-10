@@ -1,9 +1,8 @@
 /*
-** LIBRARY: N/A
-** SYNOPSIS: output integer to stdout
-**
-** DESCRIPTION:
-** 		Outputs the integer ’n’ to stdout.
+LIBRARY: N/A
+SYNOPSIS: output integer to stdout
+DESCRIPTION:
+Outputs the integer ’n’ to stdout.
 */
 
 #include "libft.h"
