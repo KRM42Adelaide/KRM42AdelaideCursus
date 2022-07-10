@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 /*
 ft_atoi converts the string argument str to an interger
     -> str is the string representation of an integral number
