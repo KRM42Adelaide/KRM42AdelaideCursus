@@ -10,13 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
 /* 
  * memmove copies n characters from src to dst
  * better option than memcpy when is comes to overlapping memory blocks
  * because it copies in a non-destructive way i.e. no overwrites take place
  * */
-
-#include <stddef.h>
 
 void    *ft_memmove(void *dst, const void *src, size_t len)
 {
