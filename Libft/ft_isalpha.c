@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include "libft.h"
 /*
 ft_isalpha checks whether a given argument is an alphabet character
     If argument is an alphabet:     1 is returned
