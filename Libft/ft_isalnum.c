@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+//#include "libft.h"
 /*
 ft_isalnum checks whether a given argument is an alphanumeric character
     If its an alphanumeric character:   1 is returned
