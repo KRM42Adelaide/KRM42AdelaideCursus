@@ -10,19 +10,19 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include "libft.h"
+#include "libft.h"
+
 /*
 ft_isalnum checks whether a given argument is an alphanumeric character
     If its an alphanumeric character:   1 is returned
     If neither:                         0 is returned
-
 A single argument is passed on to the function as a CHARACTER 
 but is taken into the function as an INTEGER argument.
     -> (internally)the charcter is converted into the integer value 
         corresponding to its ASCII value when passed.
-
 Defined in the ctype.h header
 */
+
 int ft_isalnum(int c)
 {
     if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || 
@@ -50,4 +50,4 @@ int ft_isalnum(int c)
     else
         printf("Character: %c is neither a number nor a character", c);
     return (0);
-}*/
+}*/	
